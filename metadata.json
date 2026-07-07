@@ -1,0 +1,6 @@
+{
+  "name": "آتلانتیک (ATLANTIC)",
+  "description": "تلفیق دانش روز، علوم باستانی و تعالیم اسلامی - محصولات درمانی، جوانساز و ادکلن‌های درمانی طب اسلامی آتلانتیک",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

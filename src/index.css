@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Vazirmatn", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* --- LIGHT THEME PREMIUM ADAPTATIONS --- */
+.light-theme {
+  --color-bg-primary: #F7F4EB;
+  --color-bg-secondary: #EFEAD8;
+  --color-text-primary: #0A162B;
+  --color-text-muted: rgba(10, 22, 43, 0.72);
+}
+
+.light-theme .bg-\[\#0B1B3D\] {
+  background-color: var(--color-bg-primary) !important;
+}
+
+.light-theme .bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--color-bg-primary), #EAE3CE, var(--color-bg-primary)) !important;
+}
+
+.light-theme .bg-gradient-to-tr {
+  background-image: linear-gradient(to top right, rgba(30, 77, 123, 0.08), rgba(201, 162, 39, 0.12)) !important;
+}
+
+.light-theme .text-\[\#F5F0E1\] {
+  color: var(--color-text-primary) !important;
+}
+
+.light-theme .text-\[\#F5F0E1\]\/90 {
+  color: rgba(10, 22, 43, 0.9) !important;
+}
+
+.light-theme .text-\[\#F5F0E1\]\/80 {
+  color: rgba(10, 22, 43, 0.8) !important;
+}
+
+.light-theme .text-\[\#F5F0E1\]\/70 {
+  color: rgba(10, 22, 43, 0.7) !important;
+}
+
+.light-theme .text-\[\#F5F0E1\]\/60 {
+  color: rgba(10, 22, 43, 0.6) !important;
+}
+
+.light-theme .text-\[\#F5F0E1\]\/50 {
+  color: rgba(10, 22, 43, 0.5) !important;
+}
+
+.light-theme .text-\[\#F5F0E1\]\/40 {
+  color: rgba(10, 22, 43, 0.4) !important;
+}
+
+.light-theme .bg-\[\#1E4D7B\]\/10 {
+  background-color: rgba(30, 77, 123, 0.07) !important;
+}
+
+.light-theme .bg-\[\#1E4D7B\]\/20 {
+  background-color: rgba(30, 77, 123, 0.13) !important;
+}
+
+.light-theme .bg-\[\#1E4D7B\]\/30 {
+  background-color: rgba(30, 77, 123, 0.2) !important;
+}
+
+.light-theme .bg-\[\#1E4D7B\]\/40 {
+  background-color: rgba(30, 77, 123, 0.27) !important;
+}
+
+.light-theme .bg-\[\#0B1B3D\]\/60 {
+  background-color: rgba(247, 244, 235, 0.82) !important;
+}
+
+.light-theme .bg-\[\#0B1B3D\]\/80 {
+  background-color: rgba(247, 244, 235, 0.88) !important;
+}
+
+.light-theme .bg-\[\#0B1B3D\]\/90 {
+  background-color: rgba(247, 244, 235, 0.96) !important;
+}
+
+.light-theme .border-\[\#C9A227\]\/10 {
+  border-color: rgba(201, 162, 39, 0.25) !important;
+}
+
+.light-theme .border-\[\#C9A227\]\/15 {
+  border-color: rgba(201, 162, 39, 0.3) !important;
+}
+
+.light-theme .border-\[\#C9A227\]\/20 {
+  border-color: rgba(201, 162, 39, 0.35) !important;
+}
+
+.light-theme .border-\[\#C9A227\]\/25 {
+  border-color: rgba(201, 162, 39, 0.4) !important;
+}
+
+.light-theme .border-\[\#C9A227\]\/30 {
+  border-color: rgba(201, 162, 39, 0.45) !important;
+}
+
+.light-theme .border-\[\#C9A227\]\/40 {
+  border-color: rgba(201, 162, 39, 0.55) !important;
+}
+
+.light-theme h1,
+.light-theme h2,
+.light-theme h3,
+.light-theme h4 {
+  color: var(--color-text-primary) !important;
+}
+
+.light-theme .shadow-2xl {
+  box-shadow: 0 25px 50px -12px rgba(10, 22, 43, 0.16) !important;
+}
+
+.light-theme .shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(10, 22, 43, 0.08) !important;
+}
+
+.light-theme .shadow-\[0_20px_50px_rgba\(0\,0\,0\,0\.4\)\] {
+  box-shadow: 0 20px 50px rgba(10, 22, 43, 0.12) !important;
+}
+
